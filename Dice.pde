@@ -40,7 +40,7 @@ class Die
 	}
 	void show()
 	{
-		fill(255);
+		fill((int)(Math.random() * 255) + 1, (int)(Math.random() * 255) + 1,(int)(Math.random() * 255) + 1);
     rect(myX, myY, 30, 30);
     int siz = 5;
     if(value == 1)
